@@ -17,8 +17,9 @@
     height: 42px;
     text-align: center;
     color: #fff;
+    font-family: 'Times New Roman', sans-serif;
+    text-decoration: underline;
     margin-bottom: 10px;
-   /* background-image: url("banner.png");*/
 }
 
 .tablediv

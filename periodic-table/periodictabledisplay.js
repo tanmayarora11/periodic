@@ -67,7 +67,7 @@
 
 		for(let element of changed)
 		{
-			currentcell = document.querySelector(`[data-row='${element.tablerow18col}'][data-column='${element.tablecolumn18col}']`);
+			currentcell = document.querySelector(`[data-row='${element.row}'][data-column='${element.column}']`);
 
 			currentcell.classList.toggle("elementcellfaded");
 		}
@@ -130,7 +130,7 @@
 
 		for(let element of this.data)
 		{
-			currentcell = document.querySelector(`[data-row='${element.tablerow18col}'][data-column='${element.tablecolumn18col}']`);
+			currentcell = document.querySelector(`[data-row='${element.row}'][data-column='${element.column}']`);
 
 			currentcell.setAttribute('data-atomicnumber', element.atomicnumber);
 
@@ -165,7 +165,7 @@
 	{
         for(let element of this.data)
 		{
-			let currentcell = document.querySelector(`[data-row='${element.tablerow18col}'][data-column='${element.tablecolumn18col}']`);
+			let currentcell = document.querySelector(`[data-row='${element.row}'][data-column='${element.column}']`);
 
 			for(let v of Object.values(this._blockClassMappings))
 			{
@@ -181,7 +181,7 @@
 	{
         for(let element of this.data)
 		{
-			let currentcell = document.querySelector(`[data-row='${element.tablerow18col}'][data-column='${element.tablecolumn18col}']`);
+			let currentcell = document.querySelector(`[data-row='${element.row}'][data-column='${element.column}']`);
 
 			for(let v of Object.values(this._categoryClassMappings))
 			{

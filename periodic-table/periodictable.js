@@ -8,7 +8,7 @@
         this._FilterChangedEventHandlers = [];
     }
 
-    // PROPERTIES
+    // GET ACCESSORS
 
 	get columncount() { return this._columncount };
 	get rowcount() { return this._rowcount; };

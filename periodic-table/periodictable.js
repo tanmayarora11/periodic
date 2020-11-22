@@ -8,13 +8,9 @@
         this._FilterChangedEventHandlers = [];
     }
 
-    // GET ACCESSORS
-
 	get columncount() { return this._columncount };
 	get rowcount() { return this._rowcount; };
 	get data() { return this._data; };
-
-    // METHODS
 
 	AddFilterChangedEventHandler(handler)
 	{
@@ -83,8 +79,6 @@
 	{
 		return this._data[atomicnumber - 1];
 	}
-
-    // FUNCTIONS
 
     _FireFilterChangedEvent(changed)
     {
